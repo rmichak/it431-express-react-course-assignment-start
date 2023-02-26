@@ -15,9 +15,9 @@ const CourseUpdate = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
         //TODO: Uncomment to update the course in the REST API
-        //TODO: Update the method to PUT
+        
         // fetch(`${process.env.REACT_APP_API_URL}/api/course/${id}`, {
-        //     method: 'REPLACE WITH CORRECT METHOD',
+        //     method: 'PUT',
         //     headers: {
         //         'Content-Type': 'application/json',
         //     },
