@@ -32,7 +32,7 @@ const CourseDetails = () => {
     //TODO: Uncomment to fetch the course details from the REST API
     // useEffect(() => {
 
-    //     fetch(`${process.env.REACT_APP_API_URL}/api/course/${id}`)
+    //     fetch(`${process.env.REACT_APP_API_URL}/api/course/${id}`, { method: 'GET' })
     //         .then(response => response.json())
     //         .then(data => {
     //             console.log(data);
